@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+so i did the terminal thing first
+i got it to work thanks to chatgpt
+it stores the history in browser ram
+i used switch case because- well- idk i planned on a lot of features but ended up scrapping it because im out of ideas already
+------------------------------
+did the navbar and footer
+......
+you know the terminal is kinda iseless because of the navbar
+but hey you know what, at least the terminal illiterates can navigate fine so thats a plus
+-----------------------------
+did the about section
+idk what to put ngl.... oh yeah i can just look at the module
+okay that kidna helped me
+ig ill just show off my crt?
+yea sure why not
+might aswell do the next/image thing on it
+why is it not centered anymore
+what is happening
+ill fx it later whatever
+----------------------------
+skills..... do i even have.....
+ill just say whateevr i did already ig
+---------------------------------------
+contacts contacts contacts 
+ig ill just add my github?
+how do i do a gmail autosend
+ill jsut ask gpt
+okay that was way easier than i thought
+and the standard insta because why not
+------------------------------------------
+oaky the terminal looks mad useless rn why is it my home page
+oh **** i need to put in a profile pic too? kms
+whatever can i do to make it more cool
+oh yeah, neofetch exists
+ill just.............
+--------------------
+THE TEXT WONT STAND BESIDE MY PIC WHY IS IT DOING THAT
+-------------------------------------------------------
+its been like what, 30 mins? i still havent figured it out why the text is doing align center when i told it not to
+--------------------------------------------------------------------------------------------------------------------
+whats a flex????? chatgpt help me
+----------------------------------
+okay i have no idea but flex thing worked????? Hhuh????? can somebody tell me why it worked, im so not asking someone its like what 18.30 now? no nuh uh
+--------------------------------------------------------------------------------------------
+all is good now exc the project section.............
+i have none......
+is my old portofolio a project?
+is this a project?
+i do have the snake.py but.... its jsut a for fun thing i told chatgpt to do im nto taking credits on that
+----------------------------------------------------------------------------------------------------------
+tiem to work on projects ig i held on so long on that
+oh no whats a react-icons
+omg.... its taking so long jsut to install what the *** is in there
+okay- uh ill just post this to github for now ill update again sunday
+-----------------------------------------------------------------------------------
+okay so everything works
+BUT WHAT THE **** WHY IS node_module ******* 500mb
+WHY- WHY- I DONT UNDERSTAND
+as much as i love convenience like that its still a pain to upload this because look at this
+Writing objects:  31% (111/357), 7.08 MiB | 68.00 KiB/s
+THATS my internet speed
+how long am i supposed to wait omg
+this is torture
+memi wanna play a game after this can i uplaod this before she got online **** 
+-------------------------------------------------------------------------------------------------
+NO NO WHY IS THE UPLOAD PENDING WHY- WHUH-
+[aria@GlorifiedToaster portofolio]$ git push
+Enter passphrase for key '/home/aria/.ssh/id_ed25519': 
+Enumerating objects: 358, done.
+Counting objects: 100% (358/358), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (340/340), done.
+Connection to github.com closed by remote host..00 KiB/s
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+[aria@GlorifiedToaster portofolio]$ 
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+WHAT THE **** WHY- NO- I MEAN IT WHY WHY WHY WHY
