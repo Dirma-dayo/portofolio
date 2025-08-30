@@ -27,7 +27,7 @@ how do i do a gmail autosend
 ill jsut ask gpt
 okay that was way easier than i thought
 and the standard insta because why not
-------------------------------------------
+__________________________________________
 oaky the terminal looks mad useless rn why is it my home page
 oh **** i need to put in a profile pic too? kms
 whatever can i do to make it more cool
