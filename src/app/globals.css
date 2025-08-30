@@ -1,0 +1,265 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('/fonts/prestat.ttf') format('truetype');
+}
+
+body {
+  font-family: 'PressStart2P', sans-serif;
+  background-color: #000;
+  color: #00ff00;
+  text-align: center;
+  background-image: url('https://www.transparenttextures.com/patterns/black-felt.png');
+  background-repeat: repeat;
+}
+
+.marquee {
+  font-size: 24px;
+  color: yellow;
+  background: purple;
+  padding: 5px;
+}
+
+.blinky {
+  animation: blinker 1s step-start infinite;
+  color: red;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.container {
+  border: 5px double lime;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+
+.chatbox {
+  width: 300px;
+  height: 200px;
+  border: 3px dashed magenta;
+  margin: 0 auto;
+  overflow-y: scroll;
+  background: #111;
+  padding: 10px;
+  font-size: 12px;
+  text-align: left;
+  color: cyan;
+}
+
+
+
+
+.chatbox-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  border: 3px double #888;
+  padding: 1rem;
+  background: #fff8f8;
+  box-shadow: 0 0 10px #ccc;
+  font-family: 'Courier New', monospace;
+}
+
+#username, #message {
+  width: 100%;
+  margin: 0.5rem 0;
+  background: #fff;
+  border: 1px solid #999;
+  padding: 0.5rem;
+  font-family: inherit;
+}
+
+button {
+  background: #fdd;
+  border: 1px solid #f88;
+  padding: 0.4rem 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.chat-log {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  height: 200px;
+  overflow-y: auto;
+  border: 1px dashed #ccc;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
+
+
+
+
+#bonzi-container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 150px;
+  z-index: 9999;
+  font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+#bonzi {
+  width: 100%;
+  image-rendering: pixelated;
+}
+
+#bonzi-speech {
+  background: rgb(111, 17, 119);
+  border: 2px dashed rgb(101, 219, 107);
+  padding: 4px;
+  margin-top: 5px;
+  font-size: 12px;
+  animation: bonziTalk 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes bonziTalk {
+  from { transform: translateY(0px); }
+  to { transform: translateY(-2px); }
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: url('https://i.gifer.com/Yz8l.gif');
+}
+
+
+::-webkit-scrollbar {
+  width: 20px;
+  background: hotpink;
+}
+
+::-webkit-scrollbar-thumb {
+  background: repeating-linear-gradient(
+    45deg,
+    lime,
+    lime 10px,
+    fuchsia 10px,
+    fuchsia 20px
+  );
+  border-radius: 0px;
+  border: 3px dotted yellow;
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  25% { color: orange; }
+  50% { color: yellow; }
+  75% { color: green; }
+  100% { color: blue; }
+}
+
+.spoiler {
+  background-color: black;
+  color: black;
+  user-select: none;
+}
+.spoiler:hover {
+  color: white;
+}
+
+.image-row img {
+  object-fit: cover;
+}
+
+.image-row img {
+  max-width: 33%; /* 3 imgs in row */
+  height: auto;
+}
+/* === CRT CHAOS CLEAN === */
+.crt {
+  position: relative;
+  min-height: 100vh;
+  padding: 1.25rem;
+  background: #000;
+  color: #00ff66;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  line-height: 1.6;
+  text-shadow:
+    0 0 2px #00ff66,
+    0 0 6px #00ff66,
+    1px 0 0 rgba(255,0,0,.2),
+    -1px 0 0 rgba(0,128,255,.2);
+  border: 2px solid #00ff66;
+  text-align: left; /* force left alignment */
+  filter: contrast(115%) saturate(120%);
+  transform: perspective(800px) rotateX(0.35deg) rotateY(0.2deg);
+}
+
+/* scanlines overlay */
+.crt::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.04) 0px,
+    rgba(255,255,255,0.04) 2px,
+    rgba(0,0,0,0) 3px,
+    rgba(0,0,0,0) 6px
+  );
+  mix-blend-mode: overlay;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+/* remove vignette/fade by commenting out ::after */
+/* .crt::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center,
+    rgba(0, 255, 102, 0.08) 0%,
+    rgba(0, 0, 0, 0) 55%,
+    rgba(0, 0, 0, 0.75) 100%);
+  z-index: 3;
+} */
+
+/* tiny jitter toggle with JS */
+.crt.jitter {
+  transform: perspective(800px) rotateX(0.35deg) rotateY(0.2deg) translateX(0.6px);
+}
+
+/* glow for headers */
+.crt .glow-strong {
+  text-shadow:
+    0 0 3px #00ff66,
+    0 0 10px #00ff66,
+    0 0 18px #00ff66,
+    1px 0 0 rgba(255,0,0,.25),
+    -1px 0 0 rgba(0,128,255,.25);
+}
+
+/* subtle phosphor flicker */
+@keyframes phosphor-flicker {
+  0%, 100% { opacity: 1; }
+  92% { opacity: 0.92; }
+  96% { opacity: 0.85; }
+  98% { opacity: 0.95; }
+}
+.crt .flicker {
+  animation: phosphor-flicker 2.4s infinite steps(20, end);
+}
+
+/* scanline sweep (optional) */
+@keyframes scan-sweep {
+  0% { background-position: 0 -200%; }
+  100% { background-position: 0 200%; }
+}
+
+/* accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .crt,
+  .crt.jitter,
+  .crt .flicker {
+    animation: none !important;
+    transform: none !important;
+  }
+}
