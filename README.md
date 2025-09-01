@@ -57,9 +57,6 @@ okay so everything works
 BUT WHAT THE **** WHY IS node_module ******* 500mb
 WHY- WHY- I DONT UNDERSTAND
 as much as i love convenience like that its still a pain to upload this because look at this
-Writing objects:  31% (111/357), 7.08 MiB | 68.00 KiB/s
-THATS my internet speed
-how long am i supposed to wait omg
 this is torture
 memi wanna play a game after this can i uplaod this before she got online **** 
 __________________________________________________________________________________
@@ -77,3 +74,7 @@ fatal: the remote end hung up unexpectedly
 
 WHAT THE **** WHY- NO- I MEAN IT WHY WHY WHY WHY
 _____________________________________________________________
+okay i did the project things
+added icons to the contact page
+2 actual projects and one dummy is fine right?
+oh well deploy time
