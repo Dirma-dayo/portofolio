@@ -32,20 +32,20 @@ export default function AboutPage() {
         field.
       </p>
 
-      <p style={{ marginTop: "1rem" }}>
-        I joined RPL because Im pretty good at hardware already- built my own PC out of scraps,
-        got a DDR1 & DDR2 RAM collection, old CPUs too. Thought:
-        <i> why not branch out to RPL?</i>
-      </p>
+ <p style={{ marginTop: "1rem" }}>
+  I joined RPL because I&apos;m pretty good at hardware already- built my own PC out of scraps,
+  got a DDR1 & DDR2 RAM collection, old CPUs too. Thought: <i>&quot;why not branch out to RPL?&quot;</i>
+</p>
 
-      <p style={{ marginTop: "1rem" }}>
-        Sure I might be better off in TKJ, but honestly codings fun once you actually know what does what.
-      </p>
+<p style={{ marginTop: "1rem" }}>
+  Sure I might be better off in TKJ, but honestly coding&apos;s fun once you actually know what does what.
+</p>
 
-      <p style={{ marginTop: "1rem" }}>
-        I like old stuff I literally have a CRT TV in my bedroom (yes it works, fixed with dad it).
-        here it is:
-      </p>
+<p style={{ marginTop: "1rem" }}>
+  I&apos;m still learning stuff I&apos;m seventeen. My Discord is <b>dirma</b> if you wanna chat or you can just go to this 
+  <Link href="/contact" style={{ margin: "0 8px" }}>page</Link>.
+</p>
+
 
       <div style={{ margin: "0.5rem 0 1rem" }}>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</div>
 

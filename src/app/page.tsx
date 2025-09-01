@@ -68,7 +68,7 @@ export default function HomePage() {
 
       <div>
         <span style={{ fontWeight: "bold" }}>
-          "help" for command list | or just use the navigation in the top screen that works too
+          <p>{"\"help\" for command list | or just use the navigation in the top screen that works too"}</p>
         </span>
 
         
