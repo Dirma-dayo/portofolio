@@ -1,23 +1,41 @@
-export default function SkillsPage() {
-  return (
-    <main
-      style={{
-        fontFamily: "monospace",
-        color: "#00ff00",
-        background: "black",
-        minHeight: "100vh",
-        padding: "1rem",
-        textAlign: "left",
-      }}
-    >
+import { FaTools, FaMicrochip, FaHdd, FaPalette, FaCode } from "react-icons/fa";
 
-      
-      <div style={{ lineHeight: "1.6" }}>
-        i’d say i’m pretty good at pc building<br />
-        i’m also good at fixing or maintaining old broken pcs<br />
-        i can help you install operating systems (windows, linux, etc.)<br />
-        people say i’m pretty good at designing — here’s my gallery<br />
-        my problem solving is pretty solid too (helped rakha and sulthan fix their broken arch linux setups — looking for more arch victims rn — and some other students’ broken code)
+export default function SkillsPage() {
+  const skills = [
+    {
+      icon: <FaMicrochip className="w-8 h-8 text-green-400" />,
+      text: "i’d say i’m pretty good at pc building",
+    },
+    {
+      icon: <FaTools className="w-8 h-8 text-green-400" />,
+      text: "i’m also good at fixing or maintaining old broken pcs",
+    },
+    {
+      icon: <FaHdd className="w-8 h-8 text-green-400" />,
+      text: "i can help you install operating systems (windows, linux, etc.)",
+    },
+    {
+      icon: <FaPalette className="w-8 h-8 text-green-400" />,
+      text: "people say i’m pretty good at designing",
+    },
+    {
+      icon: <FaCode className="w-8 h-8 text-green-400" />,
+      text: "my problem solving is pretty solid too (helped rakha and sulthan fix their broken arch linux setups — looking for more arch victims rn — and some other students’ broken code)",
+    },
+  ];
+
+  return (
+    <main className="font-mono text-green-400 bg-black min-h-screen p-6 flex items-center justify-center">
+      <div className="grid gap-4 max-w-xl w-full">
+        {skills.map((skill, i) => (
+          <div
+            key={i}
+            className="flex flex-col items-center text-center gap-3 border border-green-400/40 rounded-2xl p-6 bg-black/60 shadow-md shadow-green-900"
+          >
+            {skill.icon}
+            <span>{skill.text}</span>
+          </div>
+        ))}
       </div>
     </main>
   );

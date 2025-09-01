@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "clean": "rm -rf node_modules && npm prune && npm install && npx depcheck"
   },
   "dependencies": {
     "next": "15.5.2",
