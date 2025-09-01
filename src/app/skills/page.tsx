@@ -4,11 +4,11 @@ export default function SkillsPage() {
   const skills = [
     {
       icon: <FaMicrochip className="w-8 h-8 text-green-400" />,
-      text: "i’d say i’m pretty good at pc building",
+      text: "id say im pretty good at pc building",
     },
     {
       icon: <FaTools className="w-8 h-8 text-green-400" />,
-      text: "i’m also good at fixing or maintaining old broken pcs",
+      text: "im also good at fixing or maintaining old broken pcs",
     },
     {
       icon: <FaHdd className="w-8 h-8 text-green-400" />,
@@ -16,11 +16,11 @@ export default function SkillsPage() {
     },
     {
       icon: <FaPalette className="w-8 h-8 text-green-400" />,
-      text: "people say i’m pretty good at designing",
+      text: "people say im pretty good at designing",
     },
     {
       icon: <FaCode className="w-8 h-8 text-green-400" />,
-      text: "my problem solving is pretty solid too (helped rakha and sulthan fix their broken arch linux setups — looking for more arch victims rn — and some other students’ broken code)",
+      text: "my problem solving is pretty solid too (helped rakha and sulthan fix their broken arch linux setups — looking for more arch victims rn — and some other student broken code)",
     },
   ];
 
