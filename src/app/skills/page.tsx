@@ -20,7 +20,7 @@ export default function SkillsPage() {
     },
     {
       icon: <FaCode className="w-8 h-8 text-green-400" />,
-      text: "my problem solving is pretty solid too (helped rakha and sulthan fix their broken arch linux setups — looking for more arch victims rn — and some other student broken code)",
+      text: "my problem solving is pretty solid too (helped rakha and sulthan fix their broken arch linux setups looking for more arch victims rn  and some other student broken code)",
     },
   ];
 
