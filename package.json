@@ -1,13 +1,12 @@
 {
-  "name": "meowskola-butnextjs",
+  "name": "portots",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "next lint",
-    "clean": "rm -rf node_modules && npm prune && npm install && npx depcheck"
+    "lint": "eslint"
   },
   "dependencies": {
     "next": "15.5.2",
