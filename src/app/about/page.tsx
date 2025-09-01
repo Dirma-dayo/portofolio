@@ -42,8 +42,7 @@ export default function AboutPage() {
 </p>
 
 <p style={{ marginTop: "1rem" }}>
-  I&apos;m still learning stuff I&apos;m seventeen. My Discord is <b>dirma</b> if you wanna chat or you can just go to this 
-  <Link href="/contact" style={{ margin: "0 8px" }}>page</Link>.
+  I like old stuff... I literally have a crt in my room (it works lmao)
 </p>
 
 
