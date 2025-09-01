@@ -35,7 +35,7 @@ export default function AboutPage() {
       <p style={{ marginTop: "1rem" }}>
         I joined RPL because Im pretty good at hardware already- built my own PC out of scraps,
         got a DDR1 & DDR2 RAM collection, old CPUs too. Thought:
-        <i> “why not branch out to RPL?”</i>
+        <i> why not branch out to RPL?</i>
       </p>
 
       <p style={{ marginTop: "1rem" }}>
