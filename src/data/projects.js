@@ -12,9 +12,9 @@ export const projects = [
     deploy: "",
   },
   {
-    name: "dummy",
-    description: "dummy (check out vx undergrouds)",
-    github: "",
+    name: "portofolio ini",
+    description: "source code portofolio ini",
+    github: "https://github.com/Dirma-dayo/portofolio",
     deploy: "",
   },
 ];
