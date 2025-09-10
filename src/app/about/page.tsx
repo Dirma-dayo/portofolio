@@ -1,6 +1,3 @@
-// pages/about.tsx
-import Image from "next/image";
-import crt from "@/crt.jpg";
 
 export default function AboutPage() {
   return (
@@ -21,7 +18,7 @@ export default function AboutPage() {
 
       <p className="mb-4 italic">
         i joined rpl because i&apos;m pretty good at hardware already—built my own pc out of scraps,
-        got a ddr1 & ddr2 ram collection, old cpus too. thought: <i>"why not branch out to rpl?"</i>
+        got a ddr1 & ddr2 ram collection, old cpus too. thought: <i>why not branch out to rpl?</i>
       </p>
 
       <p className="mb-4">sure i might be better off in tkj, but codings fun once you know what does what.</p>
