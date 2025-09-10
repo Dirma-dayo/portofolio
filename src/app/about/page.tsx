@@ -24,7 +24,7 @@ export default function AboutPage() {
         got a ddr1 & ddr2 ram collection, old cpus too. thought: <i>"why not branch out to rpl?"</i>
       </p>
 
-      <p className="mb-4">sure i might be better off in tkj, but coding's fun once you know what does what.</p>
+      <p className="mb-4">sure i might be better off in tkj, but codings fun once you know what does what.</p>
 
       <p className="mb-4">
         im still learning stuff im seventeen. discord: <b>dirma</b> or go to{" "}
