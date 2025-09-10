@@ -78,12 +78,32 @@ body {
 }
 
 button {
-  background: #fdd;
-  border: 1px solid #f88;
-  padding: 0.4rem 1rem;
-  font-family: inherit;
+  display: inline-block;          /* allow proper width/height */
+  width: 100%;                    /* full width on mobile */
+  max-width: 200px;               /* limit width on larger screens */
+  padding: 0.75rem 1.5rem;        /* more space for PressStart2P */
+  font-family: 'PressStart2P', monospace;
+  font-size: 0.9rem;              /* adjust if text is too small */
+  text-align: left;               /* align text like terminal */
+  border: 2px solid #00ff66;
+  background: #000;
+  color: #00ff66;
   cursor: pointer;
+  transition: background 0.2s, color 0.2s;
 }
+
+button:hover {
+  background: #00ff66;
+  color: #000;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;  /* stack buttons vertically */
+  align-items: center;     /* center horizontally */
+  gap: 0.5rem;             /* space between buttons */
+  width: 100%;             /* so it stretches fully on mobile */
+}
+
 
 .chat-log {
   margin-top: 1rem;

@@ -1,76 +1,44 @@
-
-import Link from "next/link";
+// pages/about.tsx
 import Image from "next/image";
-import crt from "@/crt.jpg"
+import crt from "@/crt.jpg";
 
 export default function AboutPage() {
   return (
-    <main
+    <main className="font-mono text-green-400 bg-black min-h-screen p-6">
+      <h1 className="text-3xl font-bold mb-4">Muhammad Fahri Baadila</h1>
 
-    >
-      <h1 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>
-        Muhammad Fahri Baadila
-      </h1>
-
-      <p>
-        Currently studying in{" "}
-        <a
-          href="https://smkn8malang.sch.id/"
-          style={{ color: "yellow", textDecoration: "underline" }}
-          target="_blank"
-        >
+      <p className="mb-4">
+        currently studying in{" "}
+        <a href="https://smkn8malang.sch.id/" target="_blank" className="underline text-yellow-400">
           SMKN 8 Malang
         </a>{" "}
         in the{" "}
-        <a
-          href="https://smkn8malang.sch.id/Rpl"
-          style={{ color: "yellow", textDecoration: "underline" }}
-          target="_blank"
-        >
+        <a href="https://smkn8malang.sch.id/Rpl" target="_blank" className="underline text-yellow-400">
           RPL
         </a>{" "}
         field.
       </p>
 
- <p style={{ marginTop: "1rem" }}>
-  I joined RPL because I&apos;m pretty good at hardware already- built my own PC out of scraps,
-  got a DDR1 & DDR2 RAM collection, old CPUs too. Thought: <i>&quot;why not branch out to RPL?&quot;</i>
-</p>
-
-<p style={{ marginTop: "1rem" }}>
-  Sure I might be better off in TKJ, but honestly coding&apos;s fun once you actually know what does what.
-</p>
-
-<p style={{ marginTop: "1rem" }}>
-  I like old stuff... I literally have a crt in my room (it works lmao)
-</p>
-
-
-      <div style={{ margin: "0.5rem 0 1rem" }}>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</div>
-
-<div style={{ display: "flex", justifyContent: "center" }}>
-  <Image
-    src={crt}
-    alt="My CRT TV"
-    width={420}
-    height={315}
-    className="pixelated"
-  />
-</div>
-
-
-      <p style={{ marginTop: "1rem" }}>
-        Im still learning stuff Im seventeen. My Discord is <b>dirma</b> if you wanna chat or you can just go to this 
-        <Link href="/contact" style={{ margin: "0 8px" }}>page</Link>.
+      <p className="mb-4 italic">
+        i joined rpl because i&apos;m pretty good at hardware already—built my own pc out of scraps,
+        got a ddr1 & ddr2 ram collection, old cpus too. thought: <i>"why not branch out to rpl?"</i>
       </p>
 
-      <p style={{ marginTop: "1rem" }}>
-        I use Arch Linux and Windows, but usually Arch because it keeps my lappy cold and I can straight up kill my dGPU.
+      <p className="mb-4">sure i might be better off in tkj, but coding's fun once you know what does what.</p>
+
+      <p className="mb-4">
+        im still learning stuff im seventeen. discord: <b>dirma</b> or go to{" "}
+        <a href="/contact" className="underline text-green-300">
+          contact page
+        </a>
+        .
       </p>
 
-      <p style={{ marginTop: "1rem", fontStyle: "italic", color: "#66ff99" }}>
-        revert to clippy
+      <p className="mb-4">
+        i use arch linux and windows, usually arch because it keeps my lappy cold and i can straight up kill my dGPU.
       </p>
+
+      <p className="italic text-green-300">revert to clippy</p>
     </main>
   );
 }
