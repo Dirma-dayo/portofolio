@@ -36,8 +36,16 @@ at least it works now
     title: "i really love arcaea",
     date: "2025-09-17",
     content: `
-istg- how do people do this- I CANT EVEN DO PRESENT ON TEMPEST LET ALONE A BEYOND ON THUMB PLAY
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L2eUIEj3X54?si=cp0wYA7eTqY_Q8LY&amp;start=70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+istg- how do people do this
+
+<div class="columns-2 gap-4">
+  <div class="aspect-video overflow-hidden bg-[#1e293b] rounded-md">
+    <iframe class="w-full h-full" src="https://www.youtube.com/embed/L2eUIEj3X54?start=70" title="Video 1" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="aspect-video overflow-hidden bg-[#1e293b] rounded-md">
+    <iframe class="w-full h-full" src="https://www.youtube.com/embed/cvRjbZlACek?start=123" title="Video 2" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
     `,
   },
   
