@@ -22,8 +22,8 @@ i dont mind tho 6909MiB / 15687MiB ram usage is dope
     `,
   },
   {
-    slug: "syuh",
-    title: "i love doing syu",
+    slug: "syu-is-aSYUh",
+    title: "arch linux makes me suffer pt2",
     date: "2025-09-15",
     content: `
 did -Syu to upgrade my kernel to 5.16. grub broke and loaded to 5.15 so lmao nothing works not even nano
