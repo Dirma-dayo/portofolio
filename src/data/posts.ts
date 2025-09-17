@@ -18,7 +18,7 @@ look at this beast.
     content: `
 installed arch again today. broke it again. fixed it again.
 i think i’m in an abusive relationship w/ pacman.
-i dont mind tho 6909MiB / 15687MiB ram usage is dope
+i dont mind tho 3651MiB / 15687MiB ram usage is dope
     `,
   },
   {
