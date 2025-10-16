@@ -24,7 +24,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) with your browser to access the app
 
 ## FAQ
 1. Q:How do i add items?
