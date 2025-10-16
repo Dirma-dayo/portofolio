@@ -17,6 +17,8 @@ Ready to use copy paste into commanc line (using npm):
 ```bash
 git clone https://github.com/Dirma-dayo/uuk1.git
 
+cd uuk1
+
 npm install
 
 npm run dev
